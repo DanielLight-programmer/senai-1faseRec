@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    // infos/variáveis
+real numero1
+real numero2
+
+    //entrada de dados
+escreva("Digite o primeiro número: ")
+leia(numero1)
+escreva("Digite o segundo número: ")
+leia(numero2)
+//processamento
+se(numero1 > numero2) {
+  escreva("" + numero1 + "é maior que:" + numero2)
+}senao{
+  escreva("" + numero1 + "é maior que:" + numero2)
+  
+}//processamento//saída
+
+
+  }
+}
+
