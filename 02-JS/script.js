@@ -94,4 +94,36 @@ function calcularPrecoDoPrompt(){
     totalDeTokens = 5 + tamanhoPrompt
     // saída
     alert("Seu prompt vai consumir " + totalDeTokens + ' tokens')
+
+
 }
+
+function decisaoDecompra(){
+
+    //Peça ao usuário para inserir o preço de um item e o saldo da sua conta. Em seguida, determine se eles podem comprar o item ou não.
+let preco, saldo
+
+preco = Number(prompt("Insira o Preço do item: "))
+saldo = Number(prompt("Insira o saldo da conta: "))
+console.log(preco)
+console.log(saldo)
+
+if(saldo>= preco){
+    alert('Saldo da conta alto, compra autorizada!👍')
+}else{
+    alert('Saldo da conta baixo, compra negada!!!👎\n CONSIGA MAIS MONEY.💵')
+}
+}
+
+function ControleDeTripulação(){
+    //- ter ao menos 10 marujos;
+    //- ter pelo menos 1,5kg de comida para cada marujo.
+
+    let numeroDeMarujos 
+    let quantidadeDeComida
+
+    numeroDeMarujos = Number ((prompt))
+    quantidadeDeComida = Number((prompt))
+    
+
+}   
