@@ -1,6 +1,47 @@
+function CalcularContaAlbergue(){
+// entendimento
+/// o programa deve ler o número de o número de dias que vai ficar no albergue e apresentar o valor final da conta e sua composição. O Valor final da conta e sua composição. O Valor da diária depende de quantos dias ficou. tem  descontos e multas.
+
+
+// infod e variáveis
+let qtd_dias, valorDaDiaria
+let totalBruto, Descontos, TotalPagar
+let multa = 150
+// entrada de dados 
+qtd_dias = Number(prompt("Quantos dias?"))
+// processamentos
+if(qtd_dias <= 5){
+    
+}
 
 
 
+
+//saídas 
+
+}
+
+
+
+function AcessoCentroControle(){
+    // entendimento
+    // verificar se o usuário tem crachá válido e digital cadastrada para poder liberar o acesso ao centro de comando.
+// infos e variáveis
+let crachaValido, digitalReconhecida
+// entradas de dados
+    crachaValido = confirm("Tem crachá válido?")   
+    digitalReconhecida = confirm("Tem digital reconhecida?") 
+// processamento
+// saídas
+    // if(crachaValido==true && digitalReconhecida==true){
+    if(crachaValido && digitalReconhecida){
+        alert("Acesso liberado")
+    }else{
+        alert("Acesso negado")
+    }
+
+    
+}
 
 function JogoDeAdvinhação(){
 //entendimento
