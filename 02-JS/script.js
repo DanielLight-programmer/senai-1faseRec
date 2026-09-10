@@ -1,3 +1,16 @@
+function calcularFrete2(){
+    let peso, distancia, volume
+    let frete
+    
+    peso = Number(prompt('Digite o peso da encomenda:'))
+    distancia = Number(prompt('Digite a distância do frete:'))
+    volume = Number(prompt('Digite o volume da encomenda:'))
+    
+    frete=15+(2*peso)+(0.05*distancia)+(10*volume)
+
+    alert("Valor do frete: R$" + frete.toFixed(2).replace('.',','))
+}
+
 function CalcularContaAlbergue(){
 // entendimento
 /// o programa deve ler o número de o número de dias que vai ficar no albergue e apresentar o valor final da conta e sua composição. O Valor final da conta e sua composição. O Valor da diária depende de quantos dias ficou. tem  descontos e multas.
@@ -5,23 +18,28 @@ function CalcularContaAlbergue(){
 
 // infod e variáveis
 let qtd_dias, valorDaDiaria
-let totalBruto, Descontos, TotalPagar
+let totalBruto, descontos10, descontos15, totalPagar
 let multa = 150
 // entrada de dados 
 qtd_dias = Number(prompt("Quantos dias?"))
 // processamentos
 if(qtd_dias <= 5){
-    
+ valorDaDiaria = 100   
+}else if(qtd_dias <= 10){
+    valorDaDiaria = 90
+}else{ 
+    valorDaDiaria = 80
 }
+totalBruto =  qtd_dias * valorDaDiaria
+descontos10 = totalBruto * 10/100
+descontos15 = totalBruto * 15/100
 
+totalPagar = totalBruto - (descontos10 + descontos15) + multa
 
-
-
-//saídas 
+//saídas
+ alert("Sua conta total do Alberg: " + totalPagar)
 
 }
-
-
 
 function AcessoCentroControle(){
     // entendimento
@@ -163,8 +181,8 @@ function ControleDeTripulação(){
     let numeroDeMarujos 
     let quantidadeDeComida
 
-    numeroDeMarujos = Number ((prompt))
-    quantidadeDeComida = Number((prompt))
+    numeroDeMarujos = Number (prompt(''))
+    quantidadeDeComida = Number(prompt(''))
     
 
 }   
