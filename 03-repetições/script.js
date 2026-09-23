@@ -1,3 +1,33 @@
+
+//while-> quando você NÃO SABE quantas vezes vai se repetir.//
+//for -> quando você SABE quantas vezes vai se repetir.// 
+
+//==============================================================================================
+
+//1) Crie um programa que solicite a senha de um usuário e depois, peça pra digitar novamente até que as duas senhas sejam correspondentes.
+
+function senhaUsuario(){
+    let soma = 0
+    let senha = 0
+    while(senha<=100){
+        
+    }
+
+
+
+
+    
+    
+} 
+
+//2) Fazer um programa no qual o usuário deve montar uma salada de frutas com uma cereja no final. Deve ser perguntado em sequência “Qual fruta adicionar? “. Quando for adicionado a cereja, mostrar a frase “Sua salada de frutas está pronta!” Desafio: Mostrar ao final quantas frutas a salada tem."
+
+
+
+//3) Em um jogo de Tower Defense, o castelo (torre) tem um total de 100 de HP. Faça um programa no qual o usuário possa digitar valores de dano até a torre ser destruída. Quando o HP acabar, mostrar a mensagem "Torre destruída". (Desafio: Mostrar o HP do castelo atualizado a cada rodada. Ao final mostrar "Jogo encerrado, com X rodadas!").
+
+
+
 let resultado = document.getElementById('resultado')
 
 function parte1ex3(){
