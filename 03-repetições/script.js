@@ -1,5 +1,60 @@
 let resultado = document.getElementById('resultado')
 
+
+//while lucas
+//3) Em um jogo de Tower Defense, o castelo (torre) tem um total de 100 de HP. Faça um programa no qual o usuário possa digitar valores de dano até a torre ser destruída. Quando o HP acabar, mostrar a mensagem "Torre destruída". (Desafio: Mostrar o HP do castelo atualizado a cada rodada. Ao final mostrar "Jogo encerrado, com X rodadas!").
+
+function TowerDefese(){
+    let hpCastelo = 100
+    let valorDano 
+    let  rodadas = 0
+    while(hpCastelo > 0){
+
+        valorDano = Number(prompt("Digite o valor do dano: "))
+        hpCastelo = hpCastelo - valorDano
+        rodadas++
+        
+        if(hpCastelo > 0){
+
+            alert("Vida atualizada: " + hpCastelo)
+        }   
+
+    }
+    alert("Castelo desdruido!\nnúmero de rodadas: " + rodadas)
+}
+
+// hp-- dimnuir 1 é igual a isso hp = hp - 1
+// hp-- dimnuir 1 é igual a isso hp = hp  + 1
+   
+//===========================================================//
+
+//2) Fazer um programa no qual o usuário deve montar uma salada de frutas com uma cereja no final. Deve ser perguntado em sequência “Qual fruta adicionar? “. Quando for adicionado a cereja, mostrar a frase “Sua salada de frutas está pronta!” Desafio: Mostrar ao final quantas frutas a salada tem."
+
+function saladaDefruta(){
+    let frutadigitada 
+    while(frutadigitada != "cereja"){
+
+        frutadigitada = prompt("Qual fruta você quer adicionar?")
+
+    }
+    alert("Sua salada de fruta está pronta!")
+}
+//1) Crie um programa que solicite a senha de um usuário e depois, peça pra digitar novamente até que as duas senhas sejam correspondentes.
+
+function senhaUsuario(){
+
+    let senhadigitada
+    let senharepete
+    
+    senhadigitada = prompt("Digite uma senha: ")
+    
+    while(senhadigitada != senharepete){
+        senharepete = prompt("Digite novamente a senha: ")
+    }
+    alert("Acesso confirmado!") 
+    
+}
+//===============================================================================================================================
 function parte1ex3(){
     resultado.innerHTML = 'Parte 1, ex3<br>'
     let soma = 0
