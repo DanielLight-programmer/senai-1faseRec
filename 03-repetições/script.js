@@ -1,5 +1,49 @@
 let resultado = document.getElementById('resultado')
 
+//for lucas
+//6) Desenvolver um programa no qual o usuário digite o número de multas que deseja cadastrar e para cada multa deve colocar o valor em reais e os pontos perdidos na carteira de habilitação. Ao final, mostrar o somatório das multas e dos pontos, caso os pontos alcancem 21 ou mais, exibir a mensagem “Você está irregular”, senão, exibir “Você está regular”.
+
+function NúmeroDeMultas(){
+
+
+}
+
+// 5) Criar um programa que simule um jogo de cartas, onde inicialmente deve-se perguntar o nome do jogador 1 e o nome do jogador 2. Cada jogador tem 5 cartas para jogar. Inicia pelo jogador 1, em seguida o jogador 2, e assim segue alternando até que cada jogador tenha "jogado" suas 5 cartas. Os valores das cartas devem se digitados. Vence o jogador que tiver a maior soma. Ao final mostrar o nome do jogador vencedor e a sua soma. Caso tenha dado empate, mostrar mensagem na tela "O jogo empatou!". (DESAFIO: Aceitar somente cartas com valores entre 1 e 13, como no baralho).
+
+function JogoDeCartas(){
+
+    
+prompt("Digite o  numero do joagdor: ")
+}
+
+
+// 4) Desenvolva um programa no qual o usuário deve digitar o nome e a idade de 5 pessoas. Ao final mostrar a média de idade delas e a maior idade dentre essas pessoas. (DESAFIO: Mostrar na tela também o nome da pessoa com maior idade)
+
+function DigiteIdade(){
+    
+        let idadeDigitada
+        let nomeDigitado
+        let somaIdades = 0
+        let maiorIdade = 0 
+        let maiorNome = "" 
+        
+        for(i=0; i< 5; i++){
+        
+            nomeDigitado = prompt("Digite um nome: ")
+            idadeDigitada = Number(prompt("Digite uma idade: "))
+            somaIdades = somaIdades + idadeDigitada
+            if(idadeDigitada > maiorIdade){
+
+                maiorIdade = idadeDigitada
+                maiorNome = nomeDigitado
+
+            }
+        }
+        
+        alert("Média das Idades: " + somaIdades/5 + "\nMaior Idade: " + maiorIdade + "\nNome do maior: " + maiorNome)
+    }
+//========================================================================================================================
+
 //while lucas
 //3) Em um jogo de Tower Defense, o castelo (torre) tem um total de 100 de HP. Faça um programa no qual o usuário possa digitar valores de dano até a torre ser destruída. Quando o HP acabar, mostrar a mensagem "Torre destruída". (Desafio: Mostrar o HP do castelo atualizado a cada rodada. Ao final mostrar "Jogo encerrado, com X rodadas!").
 
@@ -24,8 +68,7 @@ function TowerDefese(){
 
 // hp-- dimnuir 1 é igual a isso hp = hp - 1
 // hp-- dimnuir 1 é igual a isso hp = hp  + 1
-   
-//===========================================================//
+
 
 //2) Fazer um programa no qual o usuário deve montar uma salada de frutas com uma cereja no final. Deve ser perguntado em sequência “Qual fruta adicionar? “. Quando for adicionado a cereja, mostrar a frase “Sua salada de frutas está pronta!” Desafio: Mostrar ao final quantas frutas a salada tem."
 
