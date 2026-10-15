@@ -1,3 +1,49 @@
+
+// Jogo de adivinhação
+//  Crie um jogo onde o computador escolhe um número entre 1 e 100, e o usuário tenta adivinhar. O programa deve fornecer dicas se o palpite for alto ou baixo ou certo. Deve dizer quantas tentativas levou para acertar.
+
+function JogoAdvinhação(){
+let sorteado = Math.ceil(Math.random()*10)
+let advinha = Number(prompt('advinhe um número: '))
+let tentativas 
+while( advinha != sorteado){
+ advinha = Number(prompt('errou! , tente novamente: '))
+}
+alert('acertou, parábens!!!👍')
+
+}
+
+function parte2ex1(){
+    // Peça ao usuário para digitar uma palavra e repita essa palavra 10 vezes na tela.
+}
+
+// function parte2ex2(){ 
+//     //Somando números pares Peça ao usuário para inserir um número e, em seguida, exiba a soma dos números pares de 2 até o número inserido.
+
+//     resultado.innerHTML = ''
+//     let soma = 0 
+//     let n = number(prompt("Digite um número: "))
+//     for (let i = 2; i<0)
+// }
+
+function parte2ex3(){
+
+    let item = 'vasio'
+    resultado.innerHTML  = ''
+    while(item != '0'){
+        item = prompt('Digite um ítem pra lista:')
+        (item = ! '0')
+        resultado.innerHTML += `<p<${item}</p> `
+
+    }
+}
+
+
+
+
+
+
+
 let resultado = document.getElementById('resultado')
 
 //for lucas
