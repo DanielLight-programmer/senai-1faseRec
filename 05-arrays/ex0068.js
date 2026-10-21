@@ -2,20 +2,6 @@
 
 // function executar_68_1_11(){}
 
-function executar_68_1_10(){}
-
-function executar_68_1_9(){}
-
-function executar_68_1_8(){}
-
-function executar_68_1_7(){
-
-}
-
-function executar_68_1_6(){
-
-}
-
 function executar_68_1_5(){
     const personagens = [
         "Lúcio Fernando",
@@ -83,7 +69,7 @@ function executar_68_1_1(){
 function mostrarArray(a){
     document.getElementById("resultado").innerHTML=""
      for (let i=0; i<a.length; i++){
-        console.log(a[i]);
+        // console.log(a[i]);
         document.getElementById("resultado").innerHTML += `<p>${a[i]}</p>`;
 
      }
