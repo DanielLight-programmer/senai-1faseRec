@@ -1,4 +1,6 @@
 
+
+
 // Jogo de adivinhação
 //  Crie um jogo onde o computador escolhe um número entre 1 e 100, e o usuário tenta adivinhar. O programa deve fornecer dicas se o palpite for alto ou baixo ou certo. Deve dizer quantas tentativas levou para acertar.
 
