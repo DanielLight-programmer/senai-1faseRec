@@ -1,4 +1,29 @@
 
+//leia vários números e, informe quantos números entre 100 e 200 foram digitados (o 100 e o 200 não contam), pare as leituras quando o valor 0 (zero) for lido.
+
+function ex17_12(){ 
+      
+let numero = 0
+let digitados = 0
+
+do{ 
+    numero = Number(prompt("Digite um número entre 100 e 200: "))
+    if(numero >= 100 && numero <= 200){
+      digitados++  
+    }
+}while ( numero != 0);
+
+alert("Números digitados: " + digitados)
+
+}
+
+
+
+
+
+
+
+
 
 
 // Jogo de adivinhação

@@ -1,3 +1,4 @@
+
 let nomes = ["Daniel", "Marcos,", "Jean", "Felipe", "Astolfo","Gustavo"]
 
 function testar1(){

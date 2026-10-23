@@ -46,7 +46,7 @@ do{
 
 do{
     n2 = prompt('digite número: ')
-}while(n2 >= 0 || n2 <=24 )
+}while(n2 >= 0 || n2 <=24)
 
   let resultado =  numeros[n1]+numeros[n2]
 alert(resultado)
@@ -61,12 +61,16 @@ let valor = Number(prompt("Digite um valor para pesquisar?"))
 let existe = numeros.includes(valor) 
 console.log(existe);
 
-
-
 }
 
-   //  P-
-     //P-
+function andarcovolo(){
+
+}
+   
+
+
+//  P-
+     // P-
     
 
 
